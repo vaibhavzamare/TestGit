@@ -1,5 +1,5 @@
 **Upload code on Github through Git**
-Step 1: Download and install Git
+Step 1: Download and install Git (https://git-scm.com/)
 Step 2: Login to github and copy the url of repository in which files are to be added(TestGit).
 Step 3: Create a folder where Repository is to be cloned (git)
 Step 4: Open Git Bash
