@@ -1,0 +1,31 @@
+**Upload code on Github through Git**
+Step 1: Download and install Git
+Step 2: Login to github and copy the url of repository in which files are to be added(TestGit).
+Step 3: Create a folder where Repository is to be cloned (git)
+Step 4: Open Git Bash
+Step 5: Follow below commnads
+$ cd {location of folder created in step 3 eg. (cd /c/git)}
+$ Enter username -> git config --global user.name {"Username"}
+$ Enter account associated Emailid -> git config --global user.email {Emailid}
+$ Clone the repository -> git clone https://github.com/vaibhavzamare/TestGit.git
+$ cd TestGit
+-> Put files to be pused on Github into git folder
+
+$ git add test.txt
+$ git status
+
+Should generate below result
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+$ Commit files with comment "first commit" -> git commit -m "first commit" test.txt
+$ Push files on Github -> git push -u origin master (After this code it will ask for crediantials)
+$ Press enter
+
+Refresh github and files will be reflected.
+
+
